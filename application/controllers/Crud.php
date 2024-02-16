@@ -34,8 +34,7 @@ class Crud extends REST_Controller {
             }else{
                 $this->response($decodedToken);
             }
-		}
-		else {
+		}else{
 			$this->response(['Authentication failed'], REST_Controller::HTTP_BAD_REQUEST);
 		}
     }

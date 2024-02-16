@@ -68,4 +68,6 @@ $route['readtask/(:num)'] = 'Crud/readtask/$1';
 $route['update/(:num)'] = 'Crud/update/$1';
 $route['delete/(:num)'] = 'Crud/delete/$1';
 
+//beanstalkd
+$route['createtask'] = 'Task/ctask';
 
